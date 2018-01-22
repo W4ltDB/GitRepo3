@@ -16,7 +16,7 @@ namespace Console_riempimento
             int ctr = 0;
             int sost = 0;
 
-            Console.WriteLine("Inserisci il numero da cercare");
+            Console.WriteLine("Inserisci il numero da trovare");
             numero = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < Numeri.Length; i++)
             {
